@@ -1,0 +1,133 @@
+.start{
+    width: 450px;
+    height: 290px;
+    background-image: url(./img/Mask\ group.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.waiting_img{
+    width: 81px;
+    height: 128px;
+    background-image: url(./img/waiting.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.app{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lemonchiffon;
+    background-image: url(./img/shadow.png);
+    gap: 10px;
+    height: auto;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lemonchiffon;
+    background-image: url(./img/shadow.png);
+    padding-bottom: 350px;
+    gap: 10px;
+}
+.wrap{
+    background-color: lemonchiffon;
+    background-image: url(./img/shadow.png);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.button{
+    width: 300px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+button:hover {
+    background: #893ee0;
+    color: #FFFFFF;
+}
+.input{
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-weight: 400;
+    width: 300px;
+    height: 57px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.font{
+    font-family: serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 25px;
+    color: #181717;
+}
+.li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    line-height: 1.8;    
+}
+.ul{
+    padding-right: 45px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.head{
+    padding-top: 100px;
+    font-weight: 700;
+}
+.game_item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.final_img{
+    width: 190px;
+    height: 144px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.win{
+    background-image: url(./img/win.png);
+}
+.lose{
+    background-image: url(./img/lose.png);
+}
+.players-list-item{
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+    font-weight: 400;
+    width: 300px;
+    height: 57px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
